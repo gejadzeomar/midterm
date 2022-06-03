@@ -8,6 +8,7 @@ a {
     color: #FFFFFF;
     font-size: 16px;
 }
+
 .sidebarbody {
     max-width: 259px;
     width: 100%;
@@ -32,7 +33,7 @@ nav ul li div {
 .flex span {
     margin-left: 15px;
 }
-.maindiv {
+.mainblock {
     display: flex;
     max-width: 1920px;
     width: 100%;
@@ -40,6 +41,8 @@ nav ul li div {
 }
 aside {
     color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
 }
 .sidebarheader {
     margin-top: 42px;
@@ -65,51 +68,42 @@ aside {
     align-items: center;
     margin-bottom: 28px;
 }
-
 .rightblock {
     max-width: 1601px;
     width: 100%;
 }
-.rightblockheader {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    
-}
 .headerright {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 30px;
+    
 }
 
-.headerright a, div {
+.headerright div {
     margin-right: 30px;
+    color: #FF2288;
+    font-size: 14px;
 }
-.mesagebar {
+.messagebar {
     display: flex;
     justify-content: flex-end;
     position: relative;
     height: 24px;
     width: 24px;
 }
-.message {
-    
-    position: relative;
-}
-.message a img {
+.messagebar img {
     width: 100%;
 }
-
 .dot {
     background-color: #FF2288;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     position: absolute;
-    /* margin-top: 0; */
-    /* margin-right: 0; */
-    /* align-self: flex-end; */
+    top: 0;
+    left: 0;
 }
 .button {
     margin-right: 91px;
@@ -119,7 +113,7 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15%;
+    border-radius: 8%;
 }
 .button a {
     color: #FFFFFF;
@@ -135,6 +129,7 @@ aside {
     padding: 10px;
     width: 40px;
     display: flex;
+    margin-left: 25px;
 }
 .search-box:hover > .search-txt{
     width: 446px;
@@ -152,7 +147,7 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.4s;
+    transition: 0.5s;
     text-decoration: none;
 }
 .search-txt{
@@ -163,10 +158,115 @@ aside {
     padding: 0;
     color: #111111;
     font-size: 16px;
-    transition: 0.4s;   
+    transition: 0.5s;   
     line-height: 40px;
     width: 0px;
 }
 /* search button  */
+
+.header2 {
+    display: flex;
+    max-width: 1231px;
+    width: 100%;
+    margin: 0 auto;
+    height: 51px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 87px;
+    align-items: center;
+}
+.header2left {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header2left div {
+    color: #222222;
+    margin-left: 51px;
+    font-size: 16px;
+}
+.header2right {
+    display: flex;
+    width: 132px;
+    align-items: center;
+}
+.header2right div img {
+    width: 100%;
+}
+.header2right div {
+    margin-right: 15px;
+}
+
+/* grid */
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: space-between;
+    margin-top: 59px;
+    max-width: 1231px;width: 100%;
+    margin: 0 auto;
+    /* grid-column-gap: 25px; */
+    /* grid-row-gap: 40px; */
+}
+.grid a {
+    color: #222222;
+}
+.griddiv {
+    width: 289px;
+}
+.griddiv img {
+    width: 100%;
+    /* margin-bottom: 16px; */
+}
+.griddiv1 {
+    position: relative;
+}
+.griddivimg1 {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 30%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* .griddivimg1 img {
+    width: 80%;
+}
+.griddivimg2 img {
+    width: 80%;
+} */
+.griddivimg2 {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 30%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    margin-top: 59px;
+    margin-left: 15px;
+    padding: auto;
+}
+
+.loadmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.loadbutton {
+    background-color: #F2F2F2;
+    height: 56px;
+    width: 289px;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+}
 
 
