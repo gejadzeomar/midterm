@@ -24,6 +24,9 @@ nav ul li div {
     align-items: center;
     margin-bottom: 54px;
 }
+nav ul li div span {
+    margin-left: 15px;
+}
 .flex {
     display: flex;
     justify-content: space-between;
@@ -200,14 +203,12 @@ aside {
 
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     align-content: space-between;
     margin-top: 59px;
     max-width: 1231px;width: 100%;
     margin: 0 auto;
-    /* grid-column-gap: 25px; */
-    /* grid-row-gap: 40px; */
 }
 .grid a {
     color: #222222;
@@ -233,12 +234,6 @@ aside {
     margin-top: 15px;
     margin-left: 15px;
 }
-/* .griddivimg1 img {
-    width: 80%;
-}
-.griddivimg2 img {
-    width: 80%;
-} */
 .griddivimg2 {
     width: 24px;
     height: 24px;
@@ -262,11 +257,121 @@ aside {
     background-color: #F2F2F2;
     height: 56px;
     width: 289px;
-    border-radius: 8%;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #222222;
 }
+
+/* topbar */
+.topsbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1601px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #FAFAFA;
+}
+.topsbarheader {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1231px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 67px;
+    height: 43px;
+}
+.topsbarheader h3 {
+    font-size: 32px;
+    color: #222222;
+}
+.viewall { 
+    color: #222222;
+    font-size: 14px;
+    opacity: 30%;
+} 
+.topsbarmain { 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1231px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 54px;
+    /* height: 386px; */
+}
+
+.topsbarmainblock {
+    width: 132px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.topsbarspan1 {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+
+}
+.topsbarspan2 {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #222222;
+    opacity: 60%;
+    display: flex;
+    justify-content: center;
+}
+.topsbarmainblock a { 
+    color: #222222;
+    font-size: 14px;
+}
+.topsbarbutton {
+    margin-top: 15px;
+    width: 132px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px #D8D8D8 solid;
+    border-radius: 12px;
+}
+
+.listbar {
+    display: flex;
+    max-width: 1231px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.listbar1 {
+    width: 165px;
+    margin-right: 100px;
+    font-size: 16px;
+    margin-top: 69px;
+}
+.listbar1 h6 {
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1231px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.footerleft img {
+    margin-right: 20px;
+}
+
+
+
+
 
 
