@@ -22,7 +22,10 @@ nav ul li div {
     width: 100%;
     display:flex;
     align-items: center;
-    margin-bottom: 54px;
+    margin-bottom: 24px;
+    height: 60px;
+    border-radius: 12px;
+    transition: all 0.6;
 }
 nav ul li div span {
     margin-left: 15px;
@@ -32,6 +35,7 @@ nav ul li div span {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 .flex span {
     margin-left: 15px;
@@ -86,8 +90,9 @@ aside {
 
 .headerright div {
     margin-right: 30px;
-    color: #FF2288;
+    color: #222222;
     font-size: 14px;
+    transition: all 0.5s;
 }
 .messagebar {
     display: flex;
@@ -110,17 +115,18 @@ aside {
 }
 .button {
     margin-right: 91px;
-    background-color: #FF2288;
     width: 129px;
     height: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8%;
+    border-radius: 12px;
+    transition: all 0.5s;
 }
 .button a {
-    color: #FFFFFF;
+    color: #222222;
     font-size: 14px;
+    transition: all 0.5s;
 }
 
 
@@ -262,6 +268,7 @@ aside {
     justify-content: center;
     align-items: center;
     color: #222222;
+    transition: all 0.4s;
 }
 
 /* topbar */
@@ -372,6 +379,9 @@ footer {
 
 .mainbody {
     margin-top: 100px;
+    max-width: 1291px;
+    width: 100%;
+    margin: 0 auto;
 }
 .row {
     display: flex;
@@ -391,6 +401,37 @@ footer {
     color: #111111;
     font-size: 16px;
 }
+
+
+
+/* hover */
+ul li div:hover {
+    background-color: #FF2288;
+}
+.headerright div:hover {
+    color: #FF2288;
+}
+
+.button:hover {
+    background-color: #FF2288;
+}
+.button a:hover {
+    color: #FFFFFF;
+}
+.loadbutton:hover {
+    background-color: #FF2288;
+    color: #FFFFFF;
+}
+
+.row:hover {
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+
+
+
+
+
 
 
 /* 820is kvemot gasastilia mobilurze */
