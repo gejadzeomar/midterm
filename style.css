@@ -429,7 +429,31 @@ ul li div:hover {
 }
 
 
-
+@media (max-width: 768px) {
+    .mainblock {
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .sidebar {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .sidebarlogo1 {
+        display: none;
+    }
+    .header2 {
+        display: none;
+    }
+    .listbar1 {
+        margin: 0 auto;
+    }
+}
 
 
 
